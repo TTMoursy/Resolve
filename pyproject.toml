@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resolve-gw"
+version = "1.0.0"
+authors = [
+  { name="Taha Moursy", email="taha.moursy@nanograv.org" },
+]
+dependencies = [    
+    "jax",
+    "jaxopt",
+    "mhealpy",
+    "numba"
+]
+description = "A package for multi-resolution HEALPix maps of the gravitational wave background with pulsar timing array data."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/TTMoursy/Resolve"
