@@ -1,4 +1,5 @@
 This is a package for multi-resolution HEALPix maps of the gravitational wave background with pulsar timing array data.
+It contains a delayed rejection reversible jump MCMC sampler and a frequentist alternative based on information criteria.
 
 You can install it using pip:
 ```
