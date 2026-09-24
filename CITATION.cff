@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "Resolve"
+version: 1.0.0
+license: "MIT"
+type: software
+abstract: "Software for multi-resolution HEALPix maps of the gravitational wave background using pulsar timing array data"
+message: "If you use this software, please cite it as below."
+authors:
+  - given-names: Taha
+    family-names: Moursy
+    affiliation: Texas Tech University
+    orcid: "https://orcid.org/0009-0003-3700-446X"
